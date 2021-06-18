@@ -44,10 +44,10 @@
                 <p class="fw-bold">Profil Mahasiswa</p>
                 </div>
                 <div class="card-body fw-bold">
-                    <p>Nama   : <?php echo $data['nama']; ?></p>
-                    <p>NIM    : <?php echo $data['nim'];?></p>
-                    <p>Alamat : <?php echo $data['alamat'] ?></p>
-                    <button class="btn btn-primary">Cetak</button>
+                    <p>Nama : <?php echo $data['nama']; ?></p>
+                    <p>NIM : <?php echo $data['nim'];?></p>
+                    <p>Alamat: <?php echo $data['alamat'] ?></p>
+                    <a href="print.php?id=<?php echo $data['id'] ?>" class="btn btn-primary btn-sm text-white">Cetak</a>
                 </div>
             </div>
         </div>
